@@ -5,3 +5,11 @@
 ### gcc vector.c -o Vector
 ### time ./Vector
 
+## para la version pthread:
+### gcc vectorp.c -pthread -o vectorp
+### time ./vectorp
+
+## para la version omp:
+### gcc vectoromp.c -fopenmp -o vectoromp
+### time ./vectoromp
+
